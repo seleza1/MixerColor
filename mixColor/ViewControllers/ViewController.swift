@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet var mixView: UIView!
     
     @IBOutlet var redSlider: UISlider!
@@ -17,7 +18,6 @@ class ViewController: UIViewController {
     @IBOutlet var redLabel: UILabel!
     @IBOutlet var greenLabel: UILabel!
     @IBOutlet var blueLabel: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()

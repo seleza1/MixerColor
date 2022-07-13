@@ -37,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84FBDA35287F1A7F0092F0B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CECD5D9F286B60EE00653D94 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84FBDA36287F1A9A0092F0B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECD5DA4286B60F000653D94 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84FBDA37287F1AB90092F0B4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CECD5DA1286B60EE00653D94 /* Main.storyboard */,
+				CECD5DA6286B60F000653D94 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84FBDA38287F1ACE0092F0B4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CECD5D9B286B60EE00653D94 /* AppDelegate.swift */,
+				CECD5D9D286B60EE00653D94 /* SceneDelegate.swift */,
+				CECD5DA9286B60F000653D94 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		CECD5D8F286B60ED00653D94 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +91,10 @@
 		CECD5D9A286B60EE00653D94 /* mixColor */ = {
 			isa = PBXGroup;
 			children = (
-				CECD5D9B286B60EE00653D94 /* AppDelegate.swift */,
-				CECD5D9D286B60EE00653D94 /* SceneDelegate.swift */,
-				CECD5D9F286B60EE00653D94 /* ViewController.swift */,
-				CECD5DA1286B60EE00653D94 /* Main.storyboard */,
-				CECD5DA4286B60F000653D94 /* Assets.xcassets */,
-				CECD5DA6286B60F000653D94 /* LaunchScreen.storyboard */,
-				CECD5DA9286B60F000653D94 /* Info.plist */,
+				84FBDA38287F1ACE0092F0B4 /* App */,
+				84FBDA35287F1A7F0092F0B4 /* ViewControllers */,
+				84FBDA37287F1AB90092F0B4 /* Storyboard */,
+				84FBDA36287F1A9A0092F0B4 /* Resources */,
 			);
 			path = mixColor;
 			sourceTree = "<group>";
@@ -288,7 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mixColor/Info.plist;
+				INFOPLIST_FILE = mixColor/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mixColor/Info.plist;
+				INFOPLIST_FILE = mixColor/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
